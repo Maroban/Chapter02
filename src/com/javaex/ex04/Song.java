@@ -16,7 +16,7 @@ public class Song {
 
 	
 	
-	// 메소드 - G, S
+	// 메소드 - GS
 	public void setTitle(String title) {
 		this.title = title;
 	}

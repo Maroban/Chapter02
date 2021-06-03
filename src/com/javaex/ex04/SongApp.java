@@ -3,7 +3,7 @@ package com.javaex.ex04;
 public class SongApp {
 
 	public static void main(String[] args) {
-		//아이유
+		//아이유 - 좋은날
 		Song iu = new Song();
 		iu.setTitle("좋은날");
 		iu.setArtist("아이유");
@@ -12,7 +12,7 @@ public class SongApp {
 		iu.setYear(2010);
 		iu.setTrack("3번 track");
 		
-		//빅뱅
+		//빅뱅 - 거짓말
 		Song bb = new Song();
 		bb.setTitle("거짓말");
 		bb.setArtist("BIGBANG");
@@ -23,7 +23,7 @@ public class SongApp {
 		
 		
 		
-		//버스커버스커
+		//버스커버스커 - 벚꽃엔딩
 		Song busker = new Song();
 		busker.setTitle("벚꽃엔딩");
 		busker.setArtist("버스커버스커");
