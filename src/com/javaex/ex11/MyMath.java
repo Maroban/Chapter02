@@ -14,7 +14,6 @@ public class MyMath {
 	// 메소드 - 일반
 	
 	// 메소드 오버로딩 사용의 좋은 예. 
-	// 작성자는 못 느끼지만 사용자가 편하다고 느낄 수 있다.
 	public static int plus(int a, int b) {
 		int result = a + b;
 		return result;

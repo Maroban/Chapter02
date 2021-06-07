@@ -4,22 +4,19 @@ public class PointApp {
 
 	public static void main(String[] args) {
 		
-		Point p01 = new Point();
-		
-		p01.setX(5);
-		p01.setY(5);
-		p01.draw();
+		// 디폴트 생성자
+		Point p01 = new Point();		
+		p01.setX(5);	// x 값에 대입
+		p01.setY(5);	// y 값에 대입
+		p01.draw();		// 출력
 
-		Point p02 = new Point(6, 6);
-		p02.draw();
+		// public Point(int x, int y) 생성자 
+		Point p02 = new Point(6, 6);	// () 괄호 안에 값을 대입하여 사용
+		p02.draw();		// 출력
 		
-		Point p03 = new Point(10);
-		p03.setY(23);
-		p03.draw();
-		
-		Point p04 = new Point(50, 50);
-		p04.draw(false);
-		
+		// 메소드 오버로딩
+		Point p03 = new Point(50, 50);  
+		p03.draw(false);  // boolean형으로 false 값 넣기		
 		
 		
 	}

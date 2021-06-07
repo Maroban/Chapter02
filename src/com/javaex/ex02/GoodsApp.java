@@ -8,7 +8,7 @@ public class GoodsApp {
 		Goods cup = new Goods();
 
 		// camera.name = "니콘";
-		camera.setName("니콘");
+		camera.setName("캐논");
 
 		// camera.price = 400000;
 		camera.setPrice(400000);
